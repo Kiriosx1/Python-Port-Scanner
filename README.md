@@ -18,10 +18,10 @@ It scans a target IP address or domain for open and closed ports in a specified 
 ## 🚀 Getting Started
 
 🧪 How to Use:
-......................
+
 run in your terminal:
 python scanner.py
-......................
+
 You will be prompted to enter:
 
 Target IP address or domain (e.g., scanme.nmap.org)
@@ -79,4 +79,5 @@ Do not scan IPs or systems you do not own or do not have permission to test.
 Unauthorized scanning may be illegal and unethical.
 
 Use responsibly and within the boundaries of the law.
+
 
