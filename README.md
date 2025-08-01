@@ -13,11 +13,12 @@ It scans a target IP address or domain for open and closed ports in a specified 
 - Built using only Python standard libraries
 - Beginner-friendly and easily extendable
 
----
+
 
 ## 🚀 Getting Started
 
-🧪 How to Use:
+---
+## 🧪 How to Use:
 
 run in your terminal:
 python scanner.py
@@ -37,7 +38,7 @@ The script will then scan the specified ports and display results like:
 ...
 pretty simple no need to stress/n
 
-
+---
 
 ## 📌 Planned Updates & Suggestions
 🎯 More features and improvements coming soon!
@@ -65,14 +66,16 @@ Here are some possible updates that may be added to the project:
 Have more suggestions? Open an issue or make a pull request!
 or maybe sent me a message on any of my social or a mail kyros.business@gmail.com!
 
+---
 
 
-##⚠️ Legal Disclaimer
+# ⚠️ Legal Disclaimer
 This tool is intended for educational purposes only.
 Do not scan IPs or systems you do not own or do not have permission to test.
 Unauthorized scanning may be illegal and unethical.
 
 Use responsibly and within the boundaries of the law.
+---
 
 
 
