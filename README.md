@@ -39,7 +39,7 @@ pretty simple no need to stress/n
 
 
 
-📌 Planned Updates & Suggestions
+## 📌 Planned Updates & Suggestions
 🎯 More features and improvements coming soon!
 
 Here are some possible updates that may be added to the project:
@@ -69,16 +69,13 @@ or maybe sent me a message on any of my social or a mail kyros.business@gmail.co
 
 
 
-
-
-
-
 ⚠️ Legal Disclaimer
 This tool is intended for educational purposes only.
 Do not scan IPs or systems you do not own or do not have permission to test.
 Unauthorized scanning may be illegal and unethical.
 
 Use responsibly and within the boundaries of the law.
+
 
 
 
