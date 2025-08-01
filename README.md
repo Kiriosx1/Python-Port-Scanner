@@ -35,7 +35,7 @@ The script will then scan the specified ports and display results like:
 [+] Port 22 is open
 [-] Port 23 is closed
 ...
-pretty simple no need to stress
+pretty simple no need to stress/n
 
 
 
@@ -79,5 +79,6 @@ Do not scan IPs or systems you do not own or do not have permission to test.
 Unauthorized scanning may be illegal and unethical.
 
 Use responsibly and within the boundaries of the law.
+
 
 
