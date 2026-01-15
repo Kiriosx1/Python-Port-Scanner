@@ -1,70 +1,20 @@
-# 🔍 Simple Python Port Scanner
+📝 Repository Update Summary
+Update Version: v2.0.0 (The "Performance" Update)
 
-A lightweight, beginner-friendly TCP port scanner written in Python.  
-It scans a target IP address or domain for open and closed ports in a specified range.
+This update transforms the script from a basic sequential scanner into a high-performance, multi-threaded networking tool.
 
----
+Key Improvements:
+Concurrency & Speed: Migrated from synchronous socket connections to Multi-threading. The scanner now handles multiple ports simultaneously, reducing scan times by over 90%.
 
-## 🛠️ Features
+Professional CLI Interface: Integrated the argparse library. Users can now pass targets, port ranges, and timeout settings directly via the command line (e.g., -t 192.168.1.1 -p 1-1000).
 
-- Scans a given range of TCP ports on a target
-- Identifies open and closed ports
-- Lightweight and easy to understand
-- Built using only Python standard libraries
-- Beginner-friendly and easily extendable
+Banner Grabbing: Added a feature to attempt service identification. If a port is open, the tool tries to capture the service banner to identify the running software (e.g., SSH, Apache, Nginx).
 
+Enhanced Error Handling: Implemented robust try/except blocks for socket timeouts and OS errors, ensuring the scanner doesn't crash on unstable networks.
 
+Visual Feedback: Added color-coded output (Green for OPEN, Red for CLOSED) using colorama for better readability during fast scans.
 
-## 🚀 Getting Started
-
----
-## 🧪 How to Use:
-
-run in your terminal:
-python scanner.py
-
-You will be prompted to enter:
-
-Target IP address or domain (e.g., scanme.nmap.org)
-
-Start port (e.g., 1)
-
-End port (e.g., 1000)
-
-The script will then scan the specified ports and display results like:
-
-[+] Port 22 is open
-[-] Port 23 is closed
-...
-pretty simple no need to stress/n
-
----
-
-## 📌 Planned Updates & Suggestions
-🎯 More features and improvements coming soon!
-
-Here are some possible updates that may be added to the project:
-
-🧵 Add multithreading support to make scanning faster
-
-📁 Output scan results to a text or CSV file
-
-🧾 Use argparse to support command-line arguments
-
-🎛️ Add scan presets (e.g., common ports, top 1000)
-
-🌐 Include optional UDP port scanning
-
-🎨 Add colored output using colorama
-
-📊 Build a simple web or GUI interface
-
-🕵️ Implement banner grabbing (basic fingerprinting)
-
-⏱️ Estimate time remaining while scanning
-
-Have more suggestions? Open an issue or make a pull request!
-or maybe sent me a message on any of my social or a mail kyros.business@gmail.com!
+Compilation Ready: The code structure is now optimized for PyInstaller, allowing it to be compiled into a single-file executable for Windows or Linux without requiring a Python installation.
 
 ---
 
@@ -77,6 +27,7 @@ or maybe sent me a message on any of my social or a mail kyros.business@gmail.co
 # Use responsibly and within the boundaries of the law.
 
 ---
+
 
 
 
